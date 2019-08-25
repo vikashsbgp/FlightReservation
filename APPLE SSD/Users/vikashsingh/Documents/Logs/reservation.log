@@ -1,0 +1,53 @@
+2019-08-21 23:04:43.998  INFO 812 --- [main] c.v.f.FlightreservationApplication       : Starting FlightreservationApplication on vikashs-MacBook-Air.local with PID 812 (/Users/vikashsingh/Desktop/projects/SpringBootLearning/flightreservation/target/classes started by vikashsingh in /Users/vikashsingh/Desktop/projects/SpringBootLearning/flightreservation)
+2019-08-21 23:04:44.002  INFO 812 --- [main] c.v.f.FlightreservationApplication       : No active profile set, falling back to default profiles: default
+2019-08-21 23:04:44.781  INFO 812 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-21 23:04:44.867  INFO 812 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71ms. Found 4 repository interfaces.
+2019-08-21 23:04:45.238  INFO 812 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$90cd6421] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-21 23:04:45.501  INFO 812 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-08-21 23:04:45.529  INFO 812 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-21 23:04:45.529  INFO 812 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-08-21 23:04:45.783  INFO 812 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-08-21 23:04:45.791  INFO 812 --- [main] o.a.c.c.C.[.[.[/flightreservation]       : Initializing Spring embedded WebApplicationContext
+2019-08-21 23:04:45.792  INFO 812 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1741 ms
+2019-08-21 23:04:45.947  INFO 812 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-08-21 23:04:46.262  INFO 812 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-08-21 23:04:46.342  INFO 812 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-08-21 23:04:46.401  INFO 812 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-08-21 23:04:46.405  INFO 812 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-08-21 23:04:46.547  INFO 812 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-08-21 23:04:46.660  INFO 812 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-08-21 23:04:47.267  INFO 812 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-08-21 23:04:47.984  INFO 812 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-21 23:04:48.015  WARN 812 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-08-21 23:04:48.051  INFO 812 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2019-08-21 23:04:48.271  INFO 812 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/flightreservation'
+2019-08-21 23:04:48.274  INFO 812 --- [main] c.v.f.FlightreservationApplication       : Started FlightreservationApplication in 4.613 seconds (JVM running for 10.312)
+2019-08-21 23:05:01.164  INFO 812 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/flightreservation]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-21 23:05:01.165  INFO 812 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-21 23:05:01.176  INFO 812 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-08-21 23:05:01.235  INFO 812 --- [http-nio-8080-exec-1] c.v.f.controllers.UserController         : Inside login() email: vkumar024@gmail.com
+2019-08-21 23:05:01.262  INFO 812 --- [http-nio-8080-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-08-21 23:05:01.391  INFO 812 --- [http-nio-8080-exec-1] c.v.f.controllers.UserController         : Password matched. Redirecting to find flights
+2019-08-21 23:05:33.013  INFO 812 --- [http-nio-8080-exec-3] c.v.f.controllers.FlightController       : Inside findFlights()NYC,DAL,2018-02-06
+2019-08-21 23:05:33.045  INFO 812 --- [http-nio-8080-exec-3] c.v.f.controllers.FlightController       : Flights from NYCto DALare [Flight [flight_number=SW3 , operating_airlines=South West, departure_city=NYC, arrival_city=DAL, date_of_departure=2018-02-06, estimated_departure_time=2018-02-06 10:14:07.0], Flight [flight_number=UA1, operating_airlines=United Airlines, departure_city=NYC, arrival_city=DAL, date_of_departure=2018-02-06, estimated_departure_time=2018-02-06 10:14:07.0]]
+2019-08-21 23:05:35.922  INFO 812 --- [http-nio-8080-exec-4] c.v.f.controllers.ReservationController  : Inside showCompleteReservation()10
+2019-08-21 23:05:35.948  INFO 812 --- [http-nio-8080-exec-4] c.v.f.controllers.ReservationController  : Flight: Flight [flight_number=UA1, operating_airlines=United Airlines, departure_city=NYC, arrival_city=DAL, date_of_departure=2018-02-06, estimated_departure_time=2018-02-06 10:14:07.0]
+2019-08-21 23:06:13.449  INFO 812 --- [http-nio-8080-exec-6] c.v.f.controllers.ReservationController  : Inside completeReservation()com.vikash.flightreservation.dto.ReservationRequest@6449231f
+2019-08-21 23:06:13.450  INFO 812 --- [http-nio-8080-exec-6] c.v.f.services.ReservationServiceImpl    : Inside bookFlight()com.vikash.flightreservation.dto.ReservationRequest@6449231f
+2019-08-21 23:06:13.455  INFO 812 --- [http-nio-8080-exec-6] c.v.f.services.ReservationServiceImpl    : Selected flight Flight [flight_number=UA1, operating_airlines=United Airlines, departure_city=NYC, arrival_city=DAL, date_of_departure=2018-02-06, estimated_departure_time=2018-02-06 10:14:07.0]
+2019-08-21 23:06:13.482  INFO 812 --- [http-nio-8080-exec-6] c.v.f.services.ReservationServiceImpl    : Passenger details: Passenger [firstName=Vicky, lastName=Singh, middleName=Kumar, email=vkumar024@gmail.com, phone=787878787]
+2019-08-21 23:06:13.494  INFO 812 --- [http-nio-8080-exec-6] c.v.f.services.ReservationServiceImpl    : Reservation details: Reservation [id=6, checkedIn=true, numberOfBags=0, passenger=Passenger [firstName=Vicky, lastName=Singh, middleName=Kumar, email=vkumar024@gmail.com, phone=787878787], flight=Flight [flight_number=UA1, operating_airlines=United Airlines, departure_city=NYC, arrival_city=DAL, date_of_departure=2018-02-06, estimated_departure_time=2018-02-06 10:14:07.0]]
+2019-08-21 23:06:13.495  INFO 812 --- [http-nio-8080-exec-6] c.v.flightreservation.util.PdfGeneretor  : Inside generateItinerary()Reservation [id=6, checkedIn=true, numberOfBags=0, passenger=Passenger [firstName=Vicky, lastName=Singh, middleName=Kumar, email=vkumar024@gmail.com, phone=787878787], flight=Flight [flight_number=UA1, operating_airlines=United Airlines, departure_city=NYC, arrival_city=DAL, date_of_departure=2018-02-06, estimated_departure_time=2018-02-06 10:14:07.0]],/Users/vikashsingh/Desktop/projects/SpringBootLearning/flightreservation/reservation⁩6.pdf
+2019-08-21 23:06:13.581  INFO 812 --- [http-nio-8080-exec-6] c.v.flightreservation.util.PdfGeneretor  : Inside generateTable()Reservation [id=6, checkedIn=true, numberOfBags=0, passenger=Passenger [firstName=Vicky, lastName=Singh, middleName=Kumar, email=vkumar024@gmail.com, phone=787878787], flight=Flight [flight_number=UA1, operating_airlines=United Airlines, departure_city=NYC, arrival_city=DAL, date_of_departure=2018-02-06, estimated_departure_time=2018-02-06 10:14:07.0]]
+2019-08-21 23:06:13.712  INFO 812 --- [http-nio-8080-exec-6] c.v.f.services.ReservationServiceImpl    : PDF generated in path/Users/vikashsingh/Desktop/projects/SpringBootLearning/flightreservation/reservation⁩6.pdf
+2019-08-21 23:06:13.713  INFO 812 --- [http-nio-8080-exec-6] c.v.f.util.EmailUtilImpl                 : Inside sendItinerary()vkumar024@gmail.com,/Users/vikashsingh/Desktop/projects/SpringBootLearning/flightreservation/reservation⁩6.pdf
+2019-08-21 23:06:23.413  INFO 812 --- [http-nio-8080-exec-6] c.v.f.services.ReservationServiceImpl    : Email sent to vkumar024@gmail.com
+2019-08-21 23:06:23.418  INFO 812 --- [http-nio-8080-exec-6] c.v.f.controllers.ReservationController  : Reservation: Reservation [id=6, checkedIn=true, numberOfBags=0, passenger=Passenger [firstName=Vicky, lastName=Singh, middleName=Kumar, email=vkumar024@gmail.com, phone=787878787], flight=Flight [flight_number=UA1, operating_airlines=United Airlines, departure_city=NYC, arrival_city=DAL, date_of_departure=2018-02-06, estimated_departure_time=2018-02-06 10:14:07.0]]
+2019-08-21 23:06:23.419  INFO 812 --- [http-nio-8080-exec-6] c.v.f.controllers.ReservationController  : Reservation created successfully and redirecting to reservationConfirmation page
+2019-08-21 23:07:03.674  INFO 812 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-08-21 23:07:03.678  INFO 812 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-21 23:07:03.679  INFO 812 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-08-21 23:07:03.682  INFO 812 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-08-21 23:07:03.697  INFO 812 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
